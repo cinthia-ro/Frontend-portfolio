@@ -11,7 +11,7 @@ const Testimonial = () => {
 
   useEffect(() => {
     axios
-      .get("https://cyan-viper-belt.cyclic.app/api/testimonial")
+      .get("https://ill-gray-snail-gear.cyclic.app/api/testimonial")
       .then((response) => {
         const formattedData = response.data.data.map((item) => ({
           id: item._id,
