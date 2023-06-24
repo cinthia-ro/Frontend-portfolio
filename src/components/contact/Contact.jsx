@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current, 'EmSdUNQzQuxkUqGWx')
+      emailjs.sendForm('service_cbzq6yt', 'template_x0whjkv', form.current, 'm_e1SQ78jv4RTcP7b')
       e.target.reset() 
       .then((result) => {
         console.log(result.text)
@@ -30,9 +30,9 @@ const Contact = () => {
             <article className="contact__option">
               <MdOutlineEmail className="contact__option__icon" />
               <h4>Email</h4>
-              <h5>myEmail@gmail.com</h5>
+              <h5>rosetsapze@gmail.com</h5>
               <a
-                href="mailto:aldenovpoutine99@gmail.com"
+                href="mailto:rosetsapze@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
